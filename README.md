@@ -1,11 +1,13 @@
 # QR-Code-Scanner-and-Generator
 Android App made using Java for QR code scanning and generation
 
-The above app has been made using Java in Android Studio
+The above app has been made using Java in Android Studio.
 
-You can access the app files from the Zip files
+You can access the app files from the Zip files.
 
 The ```MainActivity.Java``` and ```scannerView.Java``` files are provided for the reference.
+
+The ```build.gradle``` file is provided for all the reference for necessary libraries.
 
 The external dependencies can be accessed from here
 
