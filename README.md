@@ -5,7 +5,7 @@ The above app has been made using Java in Android Studio.
 
 You can access the app files from the Zip files.
 
-The ```MainActivity.Java``` and ```scannerView.Java``` files are provided for the reference.
+The ```MainActivity.Java```, ```scannerView.Java``` and the ```.xml``` files are provided for the reference.
 
 The ```build.gradle``` file is provided for all the reference for necessary libraries.
 
