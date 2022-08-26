@@ -7,6 +7,10 @@ You can access the app files from the Zip files
 
 The ```MainActivity.Java``` and ```scannerView.Java``` files are provided for the reference.
 
+The external dependencies can be accessed from here
+
+https://www.dropbox.com/sh/ydk7rdje190ew2m/AAAja6z6VxPFBSjd9gQWqZF0a?dl=0
+
 You can download and install the app using the above ```.apk``` file
 
 <img src="AppS1.png" width="250" height="450">
