@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:scaleX="1.5"
+            android:scaleY="1.5"
+            android:text="Enter Text"
+            app:layout_constraintBottom_toTopOf="@+id/inputbox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/inputbox"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:shadowColor="#9615E6"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="229dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_horizontal"
+            android:text="Generate QR Code"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="168dp" />
+
+        <ImageView
+            android:id="@+id/qrimage"
+            android:layout_width="331dp"
+            android:layout_height="260dp"
+            android:layout_marginBottom="85dp"
+            android:gravity="center_horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button"
+            app:layout_constraintVertical_bias="0.256"
+            app:srcCompat="@drawable/whiteblank" />
+
+        <Button
+            android:id="@+id/scanbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan QR code" />
+
+        <Button
+            android:id="@+id/copy"
+            android:layout_width="100dp"
+            android:layout_height="49dp"
+            android:background="@android:color/holo_red_dark"
+            android:textColor="@android:color/holo_blue_bright"
+            android:text="Copy" />
+
+        <EditText
+            android:id="@+id/scantext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:inputType="textPersonName"
+            android:scaleX="0.95"
+            android:scaleY="0.95"
+            android:shadowColor="#9615E6"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="95dp" />
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:paddingTop="3dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-4397519653000621/4527637756"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
