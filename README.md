@@ -1,6 +1,8 @@
 # QR-Code-Scanner-and-Generator
 Android App made using Java for QR code scanning and generation
 
+Get QR Packet from the Amazon Appstore. Check it out - https://www.amazon.com/dp/B0BBW3ZPVG/ref=apps_sf_sta
+
 The above app has been made using Java in Android Studio.
 
 You can access the app files from the Zip files.
